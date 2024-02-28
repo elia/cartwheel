@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- https://shopify.dev/docs/custom-storefronts/headless - Bring your own stack
+- https://github.com/Shopify/shopify-api-ruby/blob/main/docs/usage/graphql_storefront.md
+- https://shopify.dev/docs/custom-storefronts/building-with-the-storefront-api
+- https://admin.shopify.com/store/nbelzer-dev-store/apps/shopify-graphiql-app
 
-Things you may want to cover:
+## Goals
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- get to a checkout
+- go over hydrogen's scaffold and rebuild it in rails
