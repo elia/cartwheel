@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= favicon_link_tag 'cart-wheels.png' %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+    <header class="bold mb-10 bg-green-950 py-10 text-center text-white">
+      <h1 class="text-5xl">Cart-wheels <%= image_tag 'cart-wheels.png', class: 'inline h-16 w-auto' %></h1>
+
+      <%= link_to "Mock.Shop", "https://mock.shop", target: :_blank %>
+      on Rails
+    </header>
+
     <%= yield %>
   </body>
 </html>
